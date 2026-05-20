@@ -43,7 +43,7 @@ const PERSONAL_FROM_NUMBER = process.env.FROM_1;
 const PERSONAL_REPEAT_COUNT = 10;
 const PERSONAL_REPEAT_DELAY_MS = 20000;
 const RING_TIMEOUT_SEC = 15;
-const AUTO_CANCEL_MS = 5000;
+const AUTO_CANCEL_MS = 25000;
 let lastCallTime = 0;
 
 function delay(ms) {
